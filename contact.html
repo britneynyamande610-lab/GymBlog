@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+<header class="navbar-header">
+        <h1 style="color: whitesmoke;">Gym Blog</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workout.html">Workout Plans</a></li>
+                <li><a href="quiz.html">Quizzes</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+<main id="content" class="wrap">
+
+  <section class="page-head">
+
+    <h1>Contact</h1>
+
+    <p>Questions about the plan or site? Send a message below.</p>
+
+  </section>
+
+ 
+
+  <section class="grid">
+
+    <div class="card">
+
+      <form action="#" method="post" novalidate>
+
+       
+
+        <fieldset>
+
+          <legend>Your details</legend>
+
+          <div class="row row--3">
+
+            <div>
+
+              <label for="name">Full name</label>
+              <input id="name" name="name" type="text
+           " placeholder="Jane Doe" autocomplete="name" required>
+
+            </div>
+
+            <div>
+
+              <label for="email">Email address</label>
+
+              <input id="email" name="email" type="email" placeholder="name@example.com" autocomplete="email" required>
+
+            </div>
+
+            <div>
+
+              <label for="subject">Subject</label>
+
+              <input id="subject" name="subject" type="text" placeholder="Question about workout plan" required>
+
+            </div>
+
+          </div>
+
+        </fieldset>
+
+ 
+
+       
+
+        <fieldset>
+
+          <legend>Your training</legend>
+
+          <div class="row row--2">
+
+            <div>
+
+              <label for="goal">Primary goal</label>
+
+              <select id="goal" name="goal" required>
+
+                <option value="" disabled selected>Select your goal</option>
+
+                <option>Build muscle (hypertrophy)</option>
+
+                <option>Strength</option>
+
+                <option>Endurance</option>
+
+                <option>Fat loss / recomposition</option>
+
+                <option>General fitness</option>
+
+              </select>
+
+            </div>
+
+            <div>
+
+              <label for="age">Training age (years)</label>
+
+              <input id="age" name="training_age" type="number" min="0" max="50" placeholder="e.g. 2" inputmode="numeric">
+
+            </div>
+
+          </div>
+
+ 
+
+          <div style="margin-top:12px">
+
+            <label class="helper" for="newsletter-yes">Newsletter</label>
+
+            <div class="inline" role="radiogroup" aria-label="Newsletter">
+
+              <label class="checkline">
+
+                <input type="radio" name="newsletter" id="newsletter-yes" value="yes">
+
+                <span>Yes</span>
+
+              </label>
+
+              <label class="checkline">
+
+                <input type="radio" name="newsletter" id="newsletter-no" value="no" checked>
+
+                <span>No</span>
+
+              </label>
+
+            </div>
+
+          </div>
+
+        </fieldset>
+
+ 
+
+     
+
+        <fieldset>
+
+          <legend>Your message</legend>
+
+          <textarea id="message" name="message" placeholder="Type your message…" required></textarea>
+
+        </fieldset>
+
+ 
+
+        <label class="checkline">
+
+          <input type="checkbox" name="disclaimer" required>
+
+          <span>I agree that this is educational content and not medical advice.</span>
+
+        </label>
+
+ 
+
+        <div class="actions">
+
+          <button class="btn" type="submit">Send message</button>
+
+          <button class="btn btn--ghost" type="reset">Reset</button>
+
+        </div>
+
+        <p class="helper">All fields marked as required must be completed.</p>
+
+      </form>
+
+    </div>
+
+ 
+
+   
+  </section>
+
+</main>
+
+ 
+
+</body>
+
+</html>

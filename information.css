@@ -1,0 +1,97 @@
+body {
+           
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-image: url('gym-background_762625-5115.avif');
+            background-position: top;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: whitesmoke;
+            padding: 0 2rem;
+            font-weight: bold;
+            position: sticky;
+            display: flex;
+            justify-content: space-between;
+            background-color: grey;
+            align-items: center;
+        }
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            grid-template-columns: repeat(4, 1fr)
+        }
+        
+        .navbar a {
+            display: block;
+            color:whitesmoke;
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 6px;
+        }
+        .navbar a:hover {
+            color: white;
+        background-color: rgb(57, 50, 158);
+    
+
+        }
+        .page {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: whitesmoke;
+        }
+        .page-header {
+            align-self: center;
+            width: 80%;
+            align-items: center;
+            background-image: url(Blank_Hand.jpg);
+            margin: 0 auto;
+            background-position: top;
+            background-size: cover;
+            padding: 4rem 20px;
+        }
+        .page-header h1 {
+            margin: 0;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        h1, h2, h3 {
+            color: rgb(112, 112, 112);
+        }
+        ul {
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            
+            color: whitesmoke;
+        }
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 30px;
+            gap: 20px; 
+            border-radius: 8px;
+        }
+        .video-gallery {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            grid-template-columns: auto;
+        }
+        p {
+            font-size: larger;
+        }
